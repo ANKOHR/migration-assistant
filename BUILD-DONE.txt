@@ -1,0 +1,3 @@
+pytest test count: 12 passed
+local commit hash: 7c8fa5358b83e649cdbce5a4dce0ad58a7c5fe8f
+Summary: Built the Migration Assistant as a CPU only Python CLI with deterministic fictional fixtures, schema profiling, rule-based field mappings with cited confidence scores, dependency-ordered plans, evidence-backed incompatibility flags, in-memory transformations with quarantine accounting, result validation, and an append-only audit trail. The README documents quickstart, architecture, mapping and flag rules, and the honesty boundary. The pipeline connects to no real system and performs no live migration.
