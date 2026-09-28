@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "migration-assistant"
+version = "0.1.0"
+description = "Deterministic migration planning and fixture validation"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ma = "migration_assistant.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["migration_assistant*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"\n
