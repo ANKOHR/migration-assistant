@@ -89,4 +89,4 @@ def validate_result(result_dir: Path) -> dict[str, Any]:
         "mapping_version": manifest["mapping_version"],
         "status": "pass" if all(check["status"] == "pass" for check in checks) else "fail",
         "checks": checks,
-    }\n
+    }

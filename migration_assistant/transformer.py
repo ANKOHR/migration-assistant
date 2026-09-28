@@ -212,4 +212,4 @@ def _write_results(out_dir: Path, mapping: dict[str, Any], loaded: dict[str, lis
         "expected_samples": expected_samples,
     }
     write_json(out_dir / "manifest.json", manifest)
-    write_json(out_dir / "transform-report.json", report)\n
+    write_json(out_dir / "transform-report.json", report)

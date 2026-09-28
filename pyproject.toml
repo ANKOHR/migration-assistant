@@ -17,4 +17,4 @@ include = ["migration_assistant*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-addopts = "-q"\n
+addopts = "-q"

@@ -10,4 +10,4 @@ ma-prompt.txt
 ma-launch.py
 ma-codex.log
 ma-audit.jsonl
-*.log\n
+*.log

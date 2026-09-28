@@ -69,4 +69,4 @@ def inspect_source(path) -> dict[str, Any]:
         "system_name": schema.get("system_name", "unknown"),
         "fictional": schema.get("fictional", False),
         "tables": tables_out,
-    }\n
+    }

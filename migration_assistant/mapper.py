@@ -92,4 +92,4 @@ def build_mapping(source_dir, target_schema_path) -> dict[str, Any]:
     mapping["mapping_version"] = digest(mapping)
     from .flagger import collect_flags
     mapping["known_flags"] = collect_flags(source_dir, mapping)
-    return mapping\n
+    return mapping

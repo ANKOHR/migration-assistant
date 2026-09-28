@@ -65,4 +65,4 @@ def field_by_name(table: dict[str, Any], name: str) -> dict[str, Any] | None:
     for field in table.get("fields", []):
         if field["name"] == name:
             return field
-    return None\n
+    return None

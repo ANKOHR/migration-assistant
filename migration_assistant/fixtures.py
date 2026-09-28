@@ -121,4 +121,4 @@ def generate_fixtures(out_dir: Path) -> dict[str, Any]:
         encoding="utf-8",
         newline="\n",
     )
-    return {"source_dir": source_dir, "target_schema": out_dir / "target-schema.json", "seed": FIXTURE_SEED}\n
+    return {"source_dir": source_dir, "target_schema": out_dir / "target-schema.json", "seed": FIXTURE_SEED}

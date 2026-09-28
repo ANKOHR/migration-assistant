@@ -88,4 +88,4 @@ Severity semantics: `critical` blocks safe loading until resolved or explicitly 
 
 ## Determinism and scope
 
-Profiles, mappings, plans, transform reports, flags, and validation reports contain no wall-clock timestamps. With the same fixture bytes and mapping, their JSON bytes are stable. Audit timestamps intentionally record when CLI commands ran. Transform execution is in memory; optional output files are generated local fixture artifacts only. There is no database adapter, network client, or live migration executor.\n
+Profiles, mappings, plans, transform reports, flags, and validation reports contain no wall-clock timestamps. With the same fixture bytes and mapping, their JSON bytes are stable. Audit timestamps intentionally record when CLI commands ran. Transform execution is in memory; optional output files are generated local fixture artifacts only. There is no database adapter, network client, or live migration executor.

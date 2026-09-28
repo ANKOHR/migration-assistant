@@ -128,4 +128,4 @@ def pattern_support(values: list[str], target_type: str) -> float:
             okay += 1
         except (ValueError, InvalidOperation):
             continue
-    return okay / len(present)\n
+    return okay / len(present)

@@ -80,4 +80,4 @@ def build_plan(mapping: dict[str, Any]) -> dict[str, Any]:
         "flag_ids": [flag["flag_id"] for flag in flags],
     }
     plan["plan_version"] = digest(plan)
-    return plan\n
+    return plan

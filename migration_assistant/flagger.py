@@ -176,4 +176,4 @@ def flag_report(source_dir, mapping: dict[str, Any]) -> dict[str, Any]:
             "medium": "Review the conversion and accept or reduce measurable loss.",
             "low": "Informational evidence that should be reviewed during planning.",
         },
-    }\n
+    }
